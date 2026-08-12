@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="LLM news research tool for equity analysts">
+  <rect width="1200" height="800" fill="#141414"/>
+
+  <!-- stacked news articles -->
+  <g transform="translate(120 150)">
+    <g opacity="0.35">
+      <rect x="60" y="-40" width="380" height="480" rx="10" fill="none" stroke="#ffffff" stroke-width="3"/>
+    </g>
+    <g opacity="0.6">
+      <rect x="30" y="-20" width="380" height="480" rx="10" fill="#1c1c1c" stroke="#ffffff" stroke-width="3"/>
+    </g>
+    <g>
+      <rect x="0" y="0" width="380" height="480" rx="10" fill="#1c1c1c" stroke="#ffffff" stroke-width="4"/>
+      <rect x="34" y="40" width="200" height="18" rx="9" fill="#ffffff"/>
+      <rect x="34" y="86" width="312" height="10" rx="5" fill="#7a7a7a"/>
+      <rect x="34" y="112" width="290" height="10" rx="5" fill="#7a7a7a"/>
+      <rect x="34" y="138" width="312" height="10" rx="5" fill="#7a7a7a"/>
+      <rect x="34" y="164" width="240" height="10" rx="5" fill="#7a7a7a"/>
+      <rect x="34" y="214" width="312" height="10" rx="5" fill="#4a4a4a"/>
+      <rect x="34" y="240" width="270" height="10" rx="5" fill="#4a4a4a"/>
+      <rect x="34" y="266" width="312" height="10" rx="5" fill="#4a4a4a"/>
+      <rect x="34" y="292" width="180" height="10" rx="5" fill="#4a4a4a"/>
+      <rect x="34" y="342" width="312" height="10" rx="5" fill="#333333"/>
+      <rect x="34" y="368" width="250" height="10" rx="5" fill="#333333"/>
+      <rect x="34" y="394" width="300" height="10" rx="5" fill="#333333"/>
+    </g>
+  </g>
+
+  <!-- retrieval arrow -->
+  <g stroke="#ffffff" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M600 400 L700 400" stroke-dasharray="14 12"/>
+    <path d="M690 386 L706 400 L690 414" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- equity trend panel -->
+  <g transform="translate(750 190)">
+    <rect x="0" y="0" width="330" height="400" rx="10" fill="#1c1c1c" stroke="#ffffff" stroke-width="4"/>
+    <g stroke="#333333" stroke-width="2">
+      <path d="M30 90 L300 90"/>
+      <path d="M30 170 L300 170"/>
+      <path d="M30 250 L300 250"/>
+    </g>
+    <polyline points="34,300 90,250 140,268 195,180 245,196 298,96"
+              fill="none" stroke="#ffffff" stroke-width="6"
+              stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#ffffff">
+      <circle cx="34" cy="300" r="8"/>
+      <circle cx="140" cy="268" r="8"/>
+      <circle cx="195" cy="180" r="8"/>
+      <circle cx="298" cy="96" r="10"/>
+    </g>
+    <path d="M30 340 L300 340" stroke="#333333" stroke-width="3"/>
+    <rect x="30" y="360" width="150" height="12" rx="6" fill="#7a7a7a"/>
+  </g>
+</svg>
