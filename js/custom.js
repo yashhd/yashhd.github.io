@@ -126,7 +126,7 @@ $(document).ready(function() {
     }
 
     container.imagesLoaded(function() {
-        setColumns();
+        setProjects();
     });
 
 
